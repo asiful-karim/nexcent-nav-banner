@@ -116,10 +116,6 @@ nav .navMenu ul li a:hover{
   font-weight: 500;
   border-bottom: 4px solid var(--shade-s5);
 }
-nav .navBtn a{
-  color: var();
-}
-
 /* Nav end */
 
 /* banner start */
@@ -165,6 +161,7 @@ nav .navBtn a{
   padding: 14px 32px;
   display: inline-block;
 }
+/* banner end */
 /* our client start */
 #ourClients {
   padding: 40px 0;
@@ -216,14 +213,9 @@ nav .navBtn a{
 
 #community .memberCard .heading p,
 #community .nationalCard .heading p,
-#community .clubCard .heading p,
-{
+#community .clubCard .heading p {
 font-size: 14px;
-line-height: 143%
+line-height: 143%;
 }
 /* Community end */
-
-/* banner end */
-
-
 
