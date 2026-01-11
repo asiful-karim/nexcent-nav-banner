@@ -88,6 +88,20 @@ body {
   color: var(--neutral-grey);
   margin: 8px 0 16px;
 }
+
+.cardheading h3{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  color: var(--neutral-d-grey);
+}
+
+.cardheading p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-grey);
+}
 /*common end */
 
 /* Nav start */
@@ -245,4 +259,40 @@ line-height: 143%;
 }
 /* pixelgrade end */
 
+/* Achievements start */
+#achievements{
+  background: var(--neutral-silver);
+  
+}
+#achievements .achievementText{
+  width: 50%;
+  margin: auto;
+}
+#achievements .achievementCard{
+  width: 50%;
+  padding: 64px 0px 20px;
+}
+#achievements .achievementCard .card{
+  width: 50%;
+  margin-bottom: 40px;
+}
+#achievements .achievementCard .card .row{
+  align-items: center;
+}
+#achievements .achievementCard .card .cardImg{
+  margin-right: 16px;
+}
+
+#achievements .heading h2{
+  text-align: left;
+}
+#achievements .heading h2 span{
+  color: var(--brand-primary);
+  display: block;
+}
+#achievements .heading p{
+  color: #18191f;
+  text-align: left;
+}
+/* Achievements end */
 
