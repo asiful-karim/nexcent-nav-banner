@@ -218,4 +218,31 @@ font-size: 14px;
 line-height: 143%;
 }
 /* Community end */
+/* pixelgrade start */
+#pixelgrade{
+  padding: 41px 0 48px;
+}
+#pixelgrade .pixelgradeImg{
+  width: 40%;
+}
+#pixelgrade .pixelgradeImg img{
+  width: 100%;
+}
+#pixelgrade .heading{
+  width: 60%;
+}
+#pixelgrade .heading h2,#pixelgrade .heading p{
+  text-align: left;
+  margin-bottom: 0px;
+}
+#pixelgrade .row{
+  align-items: center;
+  justify-content: space-between;
+}
+#pixelgrade .heading a{
+  display: inline-block;
+  margin-top: 32px;
+}
+/* pixelgrade end */
+
 
